@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./dist/output.css" rel="stylesheet" />
+</head>
+<body class="md:items-start">
+   <div class="Contenedor max-w-6xl	m-auto">
+        <nav class="flex items-center justify-between	py-8 px-0 	">
+            <img src="./images/logo.svg">
+            <ul class="flex items-center gap-8 md:hidden		">
+                <li class="text-gray-600 cursor-pointer hover:text-red-200 ">Home</li>
+                <li class="text-gray-600 cursor-pointer hover:text-red-200" >New</li>
+                <li class="text-gray-600 cursor-pointer hover:text-red-200">Popular</li>
+                <li class="text-gray-600 cursor-pointer hover:text-red-200"> Trendin</li>
+                <li class="text-gray-600 cursor-pointer hover:text-red-200">Categories</li>
+            </ul>
+            <img src="./images/icon-menu.svg">
+          </nav>
+
+          <main>
+            <div class="principal grid gap-12 grid-cols-3 grid-row-2 max-h-screen md:ps-4 md:flex md:flex-col md:gap-12		">
+                <div class="blogp col-span-2	row-span-1">
+                    <picture>
+                        <source media="(max-width:800px)" src="images/image-web-3-mobile.jpg">
+                        <img src="images/image-web-3-desktop.jpg">
+                    </picture>
+                    <div class="info flex justify-between mt-4">
+                        <h1 class="text-5xl	font-extrabold "> The bright future of web 3.0?</h1>
+                        <div class="lectura text-gray-600 leading-normal justify-between flex  flex-col		">
+                            <p>We dive into the next evolution of the web that claims to put power of the plataforms back into the hans of people.</p>
+                            <button class="bg-red-600 border-none w-48 cursor-pointer text-slate-50 p-4 tracking-wide hover:bg-slate-900">READ MORE</button>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="New bg-slate-900 col-span-1 row-span-1">
+                    <div class="new-container p-4 flex flex-col">
+                        <h2 class="text-orange-300 text-2xl">New</h2>
+                        <div class="news-blogs flex flex-col mt-8  gap-8">
+                           
+                            <div class="new-blog mt-8 ">
+                                <h3 class="text-slate-50">Hydrogen Vs Electric cars</h3>
+                                <p class="text-slate-50">Will hidrogen-fueled cars catch up  to EVs</p>
+                            </div>
+                            <div class="new blog mt-8">
+                                <h3 class="text-slate-50">The downside of Ai Artistry</h3>
+                                <p class="text-slate-50">what are the possible adverse effect of ondemand Ai image generacion</p>
+                            </div>
+                            <div class="new blog mt-8 ">
+                                <h3 class="text-slate-50">is VC funding  drying up</h3>
+                                <p class="text-slate-50">Private funding by VC firms is down 50% YOY. we take a look at what that means</p>
+                            </div>
+                         </div>
+                    </div>
+                         
+                </div>
+                <div class="blogs-bot flex col-span-3 row-span-1 gap-4 justify-between">
+                    <div class="blog-bot flex items-center height h-fit	">
+                        <img class=" w-24 " src="images/image-retro-pcs.jpg">
+                        <div class="flex flex-col justify-between ml-4 h-32">
+                            <h2 class="text-slate-300">01</h2>
+                            <h3 class="cursor-pointer text-gray-600  hover:text-red-200 text-2xl">Reviving retro pcs</h3>
+                            <p>What happens when old PCs are given modern upgrades?</p>
+                        </div>
+                        
+                    </div>
+                    <div class="blog-bot flex items-center height h-fit">
+                        <img class=" w-24	" src="images/image-top-laptops.jpg">
+                        <div class="flex flex-col justify-between  ml-4 h-32" >
+                            <h2>02</h2>
+                            <h3 class="cursor-pointer text-gray-600  hover:text-red-200 text-2xl">top 10 laptops 2023</h3>
+                            <p>Our best picks for various needs and budget</p>
+                        </div>
+                    </div>
+                    <div class="blog-bot flex items-center height h-fit">
+                        <img class=" w-24	"  src="images/image-gaming-growth.jpg">
+                        <div class="flex flex-col justify-between ml-4 h-32">
+                            <h2 >03</h2>
+                            <h3 class="cursor-pointer text-gray-600  hover:text-red-200 text-2xl">The gorwth of gamiming</h3>
+                            <p>The Growth of Gaming How the pandemic has sparked fresh opportunities</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+          </main>
+
+   </div>
+    
+</body>
+</html>
